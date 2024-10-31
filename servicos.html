@@ -8,18 +8,27 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
-<body>
-
+<body> 
     <header class="topo">
-        <div class="limitador">
-            <h1> <a href="index.html"></a>
-                <img src="imagens/kkkkkkkkkkkkk_logo.png" alt="" style="width: 250px;">
-            </h1>
-            <nav>
-                <ul class="link-menu">
-                    <li><a href="index.html">Home</a></li>
+        <div class="limitador"> 
+                       
+            <figure > 
+                <a href="index.html"> 
+                    <img src="imagens/kkkkkkkkkkkkk_logo.png" alt="" style="width: 250px;  ">
+                </a>
+             <figcaption><a href="index.html"></a></figcaption >
+              </figure>
+
+            <nav class="menu"> 
+
+                <h2 class="titulo-menu">
+                    <a href=""> &equiv;</a>
+                </h2>
+
+                <ul class="links-menu">
+                    <li><a href="index.html">Home</a> </li>
                     <li><a href="quem-somos.html">Quem Somos</a></li>
-                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="servicos.html">Serviços</a> </li>
                     <li><a href="suporte.html">Suporte</a></li>
                     <li><a href="contato.html">Contato</a></li>
                 </ul>
@@ -32,102 +41,116 @@
 
     <!-- falta a imagem -->
     <main>
+        <article class="destaque">                                  
+       </article>
+
         <!-- Temos que colocar a Imagem ao lado do texto no Css -->
         <h2>Nossos Serviços</h2>
         <article class="artigo-servicos">
-            <img src="imagens/digramação-consultoria.PNG" alt="diagramção de consultoria">
 
-            <section class="conteudo-servicos">
-                <h3>Arquitetura de Processos e Soluções</h3>
+            <div class="teste">
+                <img src="imagens/digramação-consultoria.PNG" alt="diagramção de consultoria" >
+                <section class="conteudo-servicos">
+                    <h3>Arquitetura de Processos e Soluções</h3>
+                    <p>
+                        Os arquitetos de soluções avaliam, definem e melhoram seu processo de negócios digital e
+                        arquitetura de solução </p>
+                        <br>
+                    <ul>
+                        <li>Modelagem e definição de soluções
+                        </li>
+                        <li>Prova de conceitos
+                        </li>
+                        <li> Mitigação de lacunas
+                        </li>
+                        <li> Referências a topologias de sistema
+                        </li>
+                        <li>Arquitetura de rede de planta
+                        </li>
+                        <li> Alinhamento do processo de referência
+                        </li>
+                        <li> Realização de soluções, uma abordagem ágil para acelerar as operações do seu programa com uma
+                            entrega contínua de valor . </li>
+                    </ul>
+                </section>
+            </div>
 
-                <p>
-                    Os arquitetos de soluções avaliam, definem e melhoram seu processo de negócios digital e
-                    arquitetura de solução </p>
-                    <br>
-
-                <ul>
-                    <li>Modelagem e definição de soluções
-                    </li>
-                    <li>Prova de conceitos
-                    </li>
-                    <li> Mitigação de lacunas
-                    </li>
-                    <li> Referências a topologias de sistema
-                    </li>
-                    <li>Arquitetura de rede de planta
-                    </li>
-                    <li> Alinhamento do processo de referência
-                    </li>
-                    <li> Realização de soluções, uma abordagem ágil para acelerar as operações do seu programa com uma
-                        entrega contínua de valor . </li>
-                </ul>
-            </section>
-
-        </article>
-
+            <div class="hr-marcado"></div>
+        </article> 
+       
         <hr>       
        
-             <h3 >Tendências de aplicações da Engenharia</h3>
-             <article class="secao-card-servicos">
-              
-                 <section class="card-servicos">
-                     <h4>Internet das Coisas</h4>
-                     <p>Projete dispositivos IOT inteligentes baseados no gêmeo digital
-                         conceito para melhorar o produto
-                         manutenção e design de produto.
-                     </p>
-                 </section>
-         
-                 <section class="card-servicos">
-                     <h4>Hibridização e Eletrificação
-                     </h4>
-                     <p>
-                         Avaliar virtualmente e validar fisicamente
-                         desempenho enquanto equilibra atributos
-                         durante a integração.
-                     </p>
-                 </section>
-         
-                 <section class="card-servicos">
-                     <h4>Sistemas Autônomos</h4>
-                     <p>Verificação e balanceamento do projeto de controle de carga antecipada
-                         segurança, conforto e eficiência de combustível
-                     </p>
-                 </section>
-         
-                 <section class="card-servicos">
-                     <h4>Engenharia de Fluxo de trabalho</h4>
-                     <p>Simplifique os processos de negócios e gerencie vários domínios
-                         desenvolvimento e fabricação.
-                     </p>
-                 </section>
-         
-                 <section class="card-servicos">
-                     <h4>Eficiência da transmissão
-                     </h4>
-                     <p>Rastreie o equilíbrio energético do seu sistema de transmissão, resolva problemas e mantenha outros
-                         atributos de desempenho em cheque.</p>
-                 </section>
-         
-                 <section class="card-servicos">
-                     <h4>Fabricação Aditiva
-                     </h4>
-                     <p>Leve a produção para o próximo nível e realize o produto
-                         ideias desde o design até a impressão, apoiando todo o processo de fabricação aditiva. </p>
-                 </section>
+            
+             <article class="conteiner-card-servicos">
+               <h3>Tendências de aplicações da Engenharia</h3>
+               <div class="secao-card-servicos">                 
+                <section class="card-servicos"> 
+                    <h4>Internet das Coisas</h4>
+                    <p>Projete dispositivos IOT inteligentes baseados no gêmeo digital
+                        conceito para melhorar o produto
+                        manutenção e design de produto.
+                    </p>
+                </section>
+        
+                <section class="card-servicos">
+                    <h4>Hibridização e Eletrificação
+                    </h4>
+                    <p>
+                        Avaliar virtualmente e validar fisicamente
+                        desempenho enquanto equilibra atributos
+                        durante a integração.
+                    </p>
+                </section>
+        
+                <section class="card-servicos">
+                    <h4>Sistemas Autônomos</h4>
+                    <p>Verificação e balanceamento do projeto de controle de carga antecipada
+                        segurança, conforto e eficiência de combustível
+                    </p>
+                </section>
+               </div> 
+
+                <div class="secao-card-servicos-2">
+
+                    <section class="card-servicos">
+                        <h4>Engenharia de Fluxo de trabalho</h4>
+                        <p>Simplifique os processos de negócios e gerencie vários domínios
+                            desenvolvimento e fabricação.
+                        </p>
+                    </section>
+            
+                    <section class="card-servicos">
+                        <h4>Eficiência da transmissão
+                        </h4>
+                        <p>Rastreie o equilíbrio energético do seu sistema de transmissão, resolva problemas e mantenha outros
+                            atributos de desempenho em cheque.</p>
+                    </section>
+            
+                    <section class="card-servicos">
+                        <h4>Fabricação Aditiva
+                        </h4>
+                        <p>Leve a produção para o próximo nível e realize o produto
+                            ideias desde o design até a impressão, apoiando todo o processo de fabricação aditiva. </p>
+                    </section>
+                </div>
              </article>           
 
     </main>
 
     <!-- Coloquei hr mais para separar mas podemos modificar -->
     <hr>
-    <footer>
-        <!---colocar o logo aqui-->
-        <div>
-            <img src="imagens/kkkkkkkkkkkkk_logo.png" alt="">
-            <h3>Mapa Do Site</h3>
+    <footer class="rodape">
+ 
+        <div class="btn-botao1">
+            <img class="btn-mapa" src="imagens/kkkkkkkkkkkkk_logo.png" alt="logo" style="width:400px; height: 120px;">
+ 
+ 
+            <div class="separador"></div>
+ 
+ 
             <ul>
-                <!-- tirar bolinhas no css -->
+                <p class="mapa">Mapa Do Site</p>
+ 
                 <li><a href="index.html">Home</a></li>
                 <li><a href="quem-somos.html">Quem Somos</a></li>
                 <li><a href="servicos.html">Serviços </a> </li>
@@ -141,6 +164,7 @@
         </div>
     </footer>
 
+    <script src="js/menu.js"></script> 
 </body>
 
 </html>
