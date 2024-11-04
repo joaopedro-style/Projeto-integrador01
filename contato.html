@@ -1,66 +1,65 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Inicial - Engenharia Mecânica</title> 
-     <!-- importação google fonts raleway-->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link 
+    <title>Página Inicial - Engenharia Mecânica</title>  
+    <!-- importação de fonts raleway -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
 
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" 
-      rel="stylesheet"> 
+     href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" 
+     rel="stylesheet"> 
       <!-- importação google fonts readex pro  -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link
-
+      
        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/estilos.css">
+       <link rel="stylesheet" href="css/estilos.css">
 </head>
-
-<body> 
+       
+</head>
+<body>
     <header class="topo">
-        <div class="limitador"> 
-                       
-            <figure > 
-                <a href="index.html"> 
-                    <img src="imagens/kkkkkkkkkkkkk_logo.png" alt="" style="width: 250px;  ">
+        <div class="limitador">
+
+            <figure>
+                <a href="index.html">
+                    <img src="imagens/logo.png" alt="" style="width: 50%;">
                 </a>
-             <figcaption><a href="index.html"></a></figcaption >
-              </figure>
-
+                <figcaption><a href="index.html"></a></figcaption>
+            </figure> 
             <nav class="menu"> 
-
                 <h2 class="titulo-menu">
                     <a href=""> &equiv;</a>
-                </h2>
-
+                </h2> 
                 <ul class="links-menu">
                     <li><a href="index.html">Home</a> </li>
-                    <li><a href="quem-somos.html">Quem Somos</a></li>
+                    <li><a href="quem-somos.html">Sobre</a></li>
                     <li><a href="servicos.html">Serviços</a> </li>
                     <li><a href="suporte.html">Suporte</a></li>
                     <li><a href="contato.html">Contato</a></li>
                 </ul>
             </nav>
         </div>
-    </header>
+    </header>                    
 
-    <!-- Aqui menu do topo para arrumar no css para tirar as bolinhas e javaScript -->
-
-    <!-- falta a imagem -->
     <main> 
-        <article class="destaque"></article>
+        <div class="destaque">
+            <h2>CrossLoop engeeering consultancy</h2>
+        </div>
+
+    <article>
         <h2>Entre em Contato Conosco</h2>
-       
+           
         <p>Na CrossLoop, estamos sempre prontos para oferecer soluções inovadoras e personalizadas com o nosso metodo de
             consutoria para impulsionar o sucesso de seus projetos. Seja para discutir um novo desafio, esclarecer
-            dúvidas ou saber mais sobre os nossos serviços, estamos aqui para ajudar!</p>
-
+            dúvidas ou saber mais sobre os nossos serviços, estamos aqui para ajudar!</p>                  
+    </article> 
+     <div>
         <form autocomplete="off" action="https://formspree.io/f/xrbgpgal" method="post" id="my-form">
             <div>
                 <label for="name">Nome:</label>
@@ -97,43 +96,38 @@
             <p id="my-form-status"></p>
         </form>            
 
-        <!-- Coloquei hr mais para separar mas podemos modificar -->
-        <hr>
+       
+        
+     </div>
+
     </main>
-
-    <footer class="rodape">
-
-        <div class="btn-botao1">
-            <img class="btn-mapa" src="imagens/kkkkkkkkkkkkk_logo.png" alt="logo" style="width:400px; height: 120px;">
- 
- 
-            <div class="separador"></div>
- 
- 
+    <footer>
+        <div class="footer-container">
+          <img class="btn-mapa" src="imagens/logo.png"  style="width: 60%;" alt="logo" />
+  
+          <div class="separador"></div>
+  
+          <div class="mapa-do-site">
+            <h2>Mapa Do Site</h2>
             <ul>
-                <p class="mapa">Mapa Do Site</p>
- 
-                <li><a href="index.html">Home</a></li>
-                <li><a href="quem-somos.html">Quem Somos</a></li>
-                <li><a href="servicos.html">Serviços </a> </li>
-                <li><a href="suporte.html">Suporte</a> </li>
-                <li><a href="contato.html">Contato </a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="quem-somos.html">Quem Somos</a></li>
+              <li><a href="servicos.html">Serviços </a></li>
+              <li><a href="suporte.html">Suporte</a></li>
+              <li><a href="contato.html">Contato </a></li>
             </ul>
+          </div>
+        </div>       
+        <hr>      
+        <div class="copyright">
+          <p>Copyright © 2024 Crossloop | Powered by CrossLoop</p>
         </div>
-        <hr>
-        <div class="footer-bottom">
-            <p>Copyright © 2024 Crosslop | Powered by CrossLoop</p>
-        </div>
-    </footer> 
+      </footer> 
 
-    <script src="js/jquery-3.7.1.min.js"></script>
-    <script src="js/jquery.mask.min.js"></script>
-
-    <script src="js/menu.js"></script>
-    <script src="js/contato.js"></script>
-    
+      <script src="js/jquery-3.7.1.min.js"></script>
+      <script src="js/jquery.mask.min.js"></script>
+  
+      <script src="js/menu.js"></script>
+      <script src="js/contato.js"></script>         
 </body>
-
 </html>
-
-
